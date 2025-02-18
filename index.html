@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gráfico de Barras Dinâmico</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<div class="inputs">
+<label for="valor1">Valor 1:</label>
+<input type="number" id="valor1" placeholder="Digite o valor 1">
+<span id="valor1-display">0</span>
+
+<label for="valor2">Valor 2:</label>
+<input type="number" id="valor2" placeholder="Digite o valor 2">
+<span id="valor2-display">0</span>
+</div>
+
+<div class="grafico-container">
+<div id="grafico">
+<div id="barra"></div>
+</div>
+</div>
+
+<button onclick="iniciarProgresso()">Iniciar Progresso</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
